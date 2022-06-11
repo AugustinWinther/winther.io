@@ -509,7 +509,7 @@ footer {
 	}
 
 	header img {
-		max-width: 14.5em;
+		max-width: 13.5em;
 	}
 
 	header .fa{
@@ -598,8 +598,21 @@ footer {
 /* Mega large screen (width 2200px and up) */
 @media only screen and (min-width: 2200px) {
 	header h1 {
+		font-size: 2.8em;
 		animation: 
 			text-scroll 4s steps(100, end); /* Speed adapted for screen size */
+	}
+
+	header p {
+		font-size: 2em;
+	}
+
+	.change-lang a {
+		font-size: 1.8em;
+	}
+
+	.made-by-me a {
+		font-size: 1.7em;
 	}
 
 	.infobox h2 {
@@ -714,10 +727,18 @@ footer {
 }
 
 /**************************************/
-/* Mikro Mikro screen width (width 450px and down) */
+/* Mikro Mikro screen width (width 370px and down) */
 @media only screen and (max-width: 370px) {
 	.made-by-me a {
-		font-size: 0.8em;
+		font-size: 0.7em;
+	}
+}
+
+/**************************************/
+/* Mikro Mikro Mikro screen width (width 310px and down) */
+@media only screen and (max-width: 310px) {
+	.made-by-me a {
+		font-size: 0.6em;
 	}
 }
 
