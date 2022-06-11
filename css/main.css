@@ -442,7 +442,7 @@ footer {
 	}
 
 	.made-by-me a {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 
 	.infobox h2 {
@@ -525,7 +525,7 @@ footer {
 	}
 
 	.made-by-me a {
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	main {
@@ -669,7 +669,7 @@ footer {
 	}
 
 	.made-by-me a {
-		font-size: 0.7em;
+		font-size: 0.9em;
 		margin-left: 0.2em;
 	}
 }
@@ -709,10 +709,17 @@ footer {
 
 	.made-by-me a {
 		margin-left: .1em;
-		font-size: 0.6em;
+		font-size: 0.9em;
 	}
 }
 
+/**************************************/
+/* Mikro Mikro screen width (width 450px and down) */
+@media only screen and (max-width: 370px) {
+	.made-by-me a {
+		font-size: 0.8em;
+	}
+}
 
 /**************/
 /* Animations */
