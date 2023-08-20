@@ -1,5 +1,5 @@
 # winther.io - Website source code
-This repo contains the source code for my personal website [winther.io](https://winther.io).
+This repo contains the source code for my OLD personal website. New website made with WordPress at [winther.io](https://winther.io).
 
 NOTE: This repo does not contain the needed PHP code for validating and sending the contact form
 
